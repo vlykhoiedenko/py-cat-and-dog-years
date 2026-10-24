@@ -9,7 +9,7 @@ def get_human_age(cat_age: int, dog_age: int) -> list:
     """
     result_list = []
 
-    def animal_to_human_age_calculator(age, preiod):
+    def animal_to_human_age_calculator(age: int, preiod: int) -> list:
         if age < 15:
             return 0
         elif age < 24:
